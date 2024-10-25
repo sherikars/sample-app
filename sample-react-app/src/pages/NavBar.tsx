@@ -13,6 +13,15 @@ const NavBar = () => {
         <li>
           <NavLink to="/todo-app">ToDo App</NavLink>
         </li>
+        <li>
+          <NavLink to="/state">State & Hooks</NavLink>
+        </li>
+        <li>
+          <NavLink to="/biDirectional">Bi Directional</NavLink>
+        </li>
+        <li>
+          <NavLink to="/jsx-demo">JSX</NavLink>
+        </li>
       </ul>
     </nav>
   );
