@@ -1,0 +1,20 @@
+<html>
+
+<body>
+  <h1>Javascript Clock</h1>
+  <div id='js'>
+    <span id="date"></span>
+  </div>
+  <script>
+    function clock() {
+      const time = new Date().toLocaleTimeString();
+      const renderDom = `
+              <div>
+                <span>${time}</span>
+              </div>`
+      document.getElementById("date").innerHTML = renderDom
+    }
+    setInterval(clock, 1000);
+  </script>
+</body>
+</html>
